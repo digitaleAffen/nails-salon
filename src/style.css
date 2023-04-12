@@ -33,10 +33,122 @@ section {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url("../images/pexels-oleksandr-pidvalnyi-341372.jpg");
+    url("../images/pexels-valeria-boltneva-939835.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  padding: 200px 0;
   text-align: center;
   width: 100%;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  background: white;
+  border-radius: 4px;
+  color: var(--main-color);
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5px;
+  letter-spacing: 3px;
+  margin-top: 32px;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  background: var(--first-color);
+  transition: var(--element-transition);
+}
+
+main h2 {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main h3 {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  /* opacity: 0.8; */
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--main-color);
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: var(--main-color);
+  margin: 0;
+}
+
+p,
+strong {
+  color: var(--main-color);
+}
+
+a,
+a:visited {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--third-color);
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../images/pexels-oliver-li-6500721.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+footer h4 {
+  color: var(--main-color);
 }
