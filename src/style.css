@@ -1,0 +1,42 @@
+:root {
+  --main-color: #1d1934;
+  --first-color: #e5bec3;
+  --second-color: #c8a977;
+  --third-color: #0075a9;
+  --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --element-transition: all 150ms ease-;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--main-color);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+main {
+  background-color: var(--first-color);
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("../images/pexels-oleksandr-pidvalnyi-341372.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
