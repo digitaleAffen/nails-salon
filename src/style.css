@@ -139,8 +139,11 @@ ul {
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../images/pexels-freestocksorg-332046.jpg");
+  background-image: linear-gradient(
+      rgba(29, 25, 52, 0.8),
+      rgba(29, 25, 52, 0.8)
+    ),
+    url("../images/pexels-rodnae-productions-7755285.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
