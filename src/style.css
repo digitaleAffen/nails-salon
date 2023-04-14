@@ -5,6 +5,8 @@
   --third-color: #0075a9;
   --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --element-transition: all 150ms ease-;
+  --font-header: "Limelight", cursive;
+  --font-content: "Josefin Sans", sans-serif;
 }
 
 * {
@@ -50,8 +52,9 @@ header h1 {
 }
 
 header h2 {
-  font-weight: 400;
+  font-family: var(--font-header);
   font-size: 40px;
+  font-weight: 400;
   line-height: 1.5;
   margin: 0;
 }
@@ -122,6 +125,9 @@ main h5 {
 p,
 strong {
   color: white;
+  font-family: var(--font-content);
+  font-size: 22px;
+  font-weight: 300;
 }
 
 a,
