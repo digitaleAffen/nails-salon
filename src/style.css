@@ -90,8 +90,10 @@ header a:hover {
 
 main h2 {
   color: var(--main-color);
-  font-weight: 700;
+  font-family: var(--font-header);
+
   font-size: 40px;
+  font-weight: 700;
   line-height: 1.5;
   margin: 0;
 }
