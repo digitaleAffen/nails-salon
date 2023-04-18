@@ -4,7 +4,7 @@
   --second-color: #e5bec3;
   --third-color: #0075a9;
   --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  --element-transition: all 150ms ease-;
+  --element-transition: all 150ms ease-in-out;
   --font-header: "Limelight", cursive;
   --font-content: "Josefin Sans", sans-serif;
 }
@@ -69,7 +69,7 @@ header h3 {
 }
 
 header a {
-  background: white;
+  background: var(--main-color);
   border-radius: 4px;
   color: var(--main-color);
   display: inline-block;
@@ -141,7 +141,7 @@ a:visited {
 }
 
 a:hover {
-  color: var(--second-color);
+  color: white;
 }
 
 ul {
