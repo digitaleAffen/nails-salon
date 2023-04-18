@@ -224,11 +224,12 @@ footer h4 {
 }
 
 .button {
-  background: var(--main-color);
+  background: var(--first-color);
   border-radius: 4px;
   color: white !important;
   display: block;
   max-width: 100%;
+  font-family: var(--font-content);
   font-weight: 700;
   font-size: 14px;
   line-height: 21xp;
@@ -241,7 +242,7 @@ footer h4 {
 }
 
 .button:hover {
-  background: var(--third-color);
+  background: var(--second-color);
 }
 
 .tip {
