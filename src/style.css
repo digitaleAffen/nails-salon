@@ -60,8 +60,9 @@ header h2 {
 }
 
 header h3 {
-  font-weight: 900;
+  font-family: var(--font-content);
   font-size: 24px;
+  font-weight: 900;
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
@@ -100,8 +101,9 @@ main h2 {
 
 main h3 {
   color: var(--main-color);
-  font-weight: 700;
+  font-family: var(--font-content);
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
