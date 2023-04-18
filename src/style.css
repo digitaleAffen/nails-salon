@@ -9,6 +9,11 @@
   --font-content: "Josefin Sans", sans-serif;
 }
 
+@font-face {
+  font-family: hatolie;
+  src: url("../fonts/hatolie.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -45,15 +50,16 @@ header {
 }
 
 header h1 {
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 1;
+  font-family: hatolie;
+  font-size: 156px;
+  font-weight: 200;
   margin: 30px 0;
 }
 
 header h2 {
-  font-family: var(--font-header);
+  font-family: var(--font-content);
   font-size: 40px;
+  font-style: italic;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
@@ -87,6 +93,14 @@ header a {
 header a:hover {
   background: var(--main-color);
   transition: var(--element-transition);
+}
+
+.name-salon {
+  font-family: hatolie;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
 }
 
 main h2 {
