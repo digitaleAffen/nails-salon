@@ -92,17 +92,20 @@ header a:hover {
 main h2 {
   color: var(--main-color);
   font-family: var(--font-header);
-
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
   margin: 0;
 }
 
+.card-title {
+  color: var(--first-color);
+}
+
 main h3 {
   color: var(--main-color);
   font-family: var(--font-content);
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 5px;
@@ -207,7 +210,7 @@ footer h4 {
 
 .card {
   border-radius: 8px;
-  background: var(--first-color);
+  background: var(--main-color);
   margin-top: auto;
   margin-bottom: auto;
 }
