@@ -69,12 +69,12 @@ header h3 {
 }
 
 header a {
-  background: var(--main-color);
+  background: var(--second-color);
   border-radius: 4px;
-  color: var(--main-color);
   display: inline-block;
-  font-weight: 700;
+  font-family: var(--font-content);
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.5px;
   letter-spacing: 3px;
   margin-top: 32px;
@@ -85,7 +85,7 @@ header a {
 }
 
 header a:hover {
-  background: var(--first-color);
+  background: var(--main-color);
   transition: var(--element-transition);
 }
 
@@ -114,6 +114,7 @@ main h3 {
 }
 
 main h4 {
+  font-family: var(--font-content);
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
@@ -144,7 +145,7 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: var(--second-color);
 }
 
 ul {
@@ -164,6 +165,7 @@ footer {
 
 footer h4 {
   color: var(--first-color);
+  font-family: var(--font-content);
 }
 
 .grid {
@@ -277,5 +279,7 @@ footer h4 {
 }
 
 .giovanna {
+  font-family: var(--font-content);
   font-weight: 800;
+  font-size: 20px;
 }
