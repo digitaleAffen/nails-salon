@@ -5,8 +5,6 @@
   --third-color: #0075a9;
   --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --element-transition: all 150ms ease-in-out;
-  --font-header: "Limelight", cursive;
-  --font-content: "Josefin Sans", sans-serif;
 }
 
 @font-face {
@@ -21,6 +19,7 @@
 
 body {
   background: var(--main-color);
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .container {
@@ -57,16 +56,13 @@ header h1 {
 }
 
 header h2 {
-  font-family: var(--font-content);
   font-size: 40px;
-  font-style: italic;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
 }
 
 header h3 {
-  font-family: var(--font-content);
   font-size: 24px;
   font-weight: 900;
   line-height: 1.5;
@@ -78,7 +74,6 @@ header a {
   background: var(--second-color);
   border-radius: 4px;
   display: inline-block;
-  font-family: var(--font-content);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5px;
@@ -105,7 +100,6 @@ header a:hover {
 
 main h2 {
   color: var(--main-color);
-  font-family: var(--font-header);
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
@@ -118,7 +112,6 @@ main h2 {
 
 main h3 {
   color: var(--main-color);
-  font-family: var(--font-content);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.5;
@@ -128,7 +121,6 @@ main h3 {
 }
 
 main h4 {
-  font-family: var(--font-content);
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
@@ -146,8 +138,6 @@ main h5 {
 
 p,
 strong {
-  color: var(--main-color);
-  font-family: var(--font-content);
   font-size: 22px;
   font-weight: 300;
 }
@@ -172,7 +162,11 @@ footer {
 
 footer h4 {
   color: var(--first-color);
-  font-family: var(--font-content);
+}
+
+footer p,
+strong {
+  color: white;
 }
 
 .grid {
@@ -233,6 +227,10 @@ footer h4 {
   padding: 30px;
 }
 
+.card-body p {
+  color: white;
+}
+
 .card-footer {
   padding: 20px;
 }
@@ -243,7 +241,6 @@ footer h4 {
   color: white !important;
   display: block;
   max-width: 100%;
-  font-family: var(--font-content);
   font-weight: 700;
   font-size: 14px;
   line-height: 21xp;
@@ -292,7 +289,6 @@ footer h4 {
 }
 
 .giovanna {
-  font-family: var(--font-content);
   font-weight: 800;
   font-size: 20px;
 }
