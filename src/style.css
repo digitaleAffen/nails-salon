@@ -186,14 +186,6 @@ strong {
   grid-template-columns: repeat(3, 3fr);
 }
 
-.img-responsive-round {
-  border-radius: 50%;
-  max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .img-responsive {
   border-radius: 8px;
   box-shadow: var(--box-shadow);
@@ -338,6 +330,10 @@ strong {
 
   .grid-3-columns {
     align-items: center;
+  }
+
+  .calendly {
+    display: none;
   }
 
   .contact-text {
