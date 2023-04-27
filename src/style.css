@@ -37,6 +37,10 @@ section {
   padding: 100px;
 }
 
+.navbar {
+  background: var(--main-color);
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
     url("../images/pexels-valeria-boltneva-939835.jpg");
@@ -321,7 +325,6 @@ strong {
 
   main h2 {
     font-size: 24px;
-    line-height: 2;
   }
 
   .grid-2-columns-contact {

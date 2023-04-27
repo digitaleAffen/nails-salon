@@ -21,9 +21,38 @@
 
     <link rel="stylesheet" href="src/style.css" />
 
-    <title>The House of Nails | Nails Salon</title>
+    <title>The House of Nails | Salon</title>
   </head>
   <body>
+    <div class="navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="/"><i class="fa-solid fa-house"></i></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link active" href="#menu">Menu</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" aria-current="page" href="#contact"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
     <header>
       <h1 class="text-center">the House of nails</h1>
       <h2>To look good, first feel good.</h2>
@@ -146,7 +175,7 @@
           </div>
         </section>
 
-        <section class="secondary">
+        <section class="secondary" id="menu">
           <h3 class="text-center">The Menu</h3>
           <h2 class="text-center">SERVICES AND PRICES</h2>
           <a
@@ -159,7 +188,7 @@
         </section>
         
 
-        <section>
+        <section id="gallery">
           <h3 class="text-center">Gallery</h3>
           <h2 class="text-center">MORE ABOUT OUR WORK</h2>
           <div class="grid grid-3-columns">
@@ -1132,5 +1161,7 @@
         </div>
         </section>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
