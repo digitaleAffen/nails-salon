@@ -22,23 +22,24 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.container {
+.navbar-custom {
+  background-color: var(--second-color) !important;
+}
+
+.lin .container {
   margin: 0 auto;
   max-width: 1400px;
 }
 
 main {
   background-color: white;
+  color: #1d1934;
 }
 
 section {
   max-width: 100%;
   margin: 0 auto;
   padding: 100px;
-}
-
-.navbar {
-  background: var(--main-color);
 }
 
 header {
@@ -154,6 +155,10 @@ a:visited {
 
 a:hover {
   color: var(--second-color);
+}
+
+a:visited {
+  color: white !important;
 }
 
 ul {
