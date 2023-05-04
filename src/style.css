@@ -111,10 +111,6 @@ main h2 {
   margin: 0;
 }
 
-.card-title {
-  color: var(--first-color);
-}
-
 main h3 {
   color: var(--main-color);
   font-size: 22px;
@@ -195,6 +191,11 @@ strong {
   grid-template-columns: repeat(3, 3fr);
 }
 
+.img-container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .img-responsive {
   border-radius: 8px;
   box-shadow: var(--box-shadow);
@@ -222,6 +223,10 @@ strong {
   background: var(--main-color);
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.card-title {
+  color: var(--first-color);
 }
 
 .card-body {
