@@ -26,7 +26,7 @@ body {
   background-color: var(--second-color) !important;
 }
 
-.lin .container {
+.container {
   margin: 0 auto;
   max-width: 1400px;
 }
@@ -270,6 +270,15 @@ strong {
   color: white;
   font-size: 26px;
   padding: 12px;
+}
+
+.icon-blue {
+  color: var(--main-color);
+  font-size: 26px;
+  padding: 12px;
+  display: inline-block;
+  float: left;
+  vertical-align: bottom;
 }
 
 .instagram-embed {
