@@ -274,11 +274,25 @@ strong {
 
 .icon-blue {
   color: var(--main-color);
-  font-size: 26px;
-  padding: 12px;
   display: inline-block;
   float: left;
+  font-size: 26px;
+  padding: 12px;
   vertical-align: bottom;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625 or 56.25%) */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .instagram-embed {
@@ -350,6 +364,15 @@ strong {
     font-size: 24px;
   }
 
+  p {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  ul {
+    padding: 0;
+  }
+
   .grid-2-columns-contact {
     grid-gap: 0px;
     grid-template-columns: 1fr;
@@ -364,6 +387,10 @@ strong {
   }
 
   .contact-text {
+    text-align: center;
+  }
+
+  .career-text {
     text-align: center;
   }
 
