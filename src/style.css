@@ -191,6 +191,10 @@ strong {
   grid-template-columns: repeat(3, 3fr);
 }
 
+.grid-4-columns {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .img-container {
   margin-top: auto;
   margin-bottom: auto;
@@ -272,6 +276,16 @@ strong {
   padding: 12px;
 }
 
+.icon-footer {
+  color: white;
+  font-size: 36px;
+  padding: 12px;
+}
+
+.icon-footer:hover {
+  color: var(--first-color);
+}
+
 .icon-blue {
   color: var(--main-color);
   display: inline-block;
@@ -326,6 +340,10 @@ strong {
   font-size: 20px;
 }
 
+.giovanna:hover {
+  color: var(--first-color);
+}
+
 @media (max-width: 998px) {
   .grid-2-columns {
     grid-template-columns: 1fr;
@@ -334,6 +352,10 @@ strong {
 
   .grid-3-columns {
     align-items: center;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-4-columns {
     grid-template-columns: 1fr;
   }
 }
